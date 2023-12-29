@@ -20,8 +20,8 @@ export default new Router({
       component: Home
     },
     {
-      path: '/festi-sugest',
-      name: 'festi-sugest',
+      path: '/festi-game',
+      name: 'festi-game',
       component: App,
       children: [
         {

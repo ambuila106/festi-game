@@ -7,6 +7,7 @@ import SignIn from './views/SignIn.vue'
 import SignUp from './views/SignUp.vue'
 import Subscribe from './views/Subscribe.vue'
 import Jobs from './views/Jobs.vue'
+import Game from './views/Game.vue'
 
 Vue.use(Router)
 
@@ -26,7 +27,7 @@ export default new Router({
         {
           path: '/',
           name: 'home',
-          component: Jobs
+          component: Game
         },
         {
           path: '/festival-universitario/signin',
